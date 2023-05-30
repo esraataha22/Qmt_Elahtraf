@@ -1,0 +1,211 @@
+﻿@page
+@model Qimt2.Pages.ReportModel
+
+@{
+}
+<style>
+    th,td{
+        text-align:center;
+        font-family: "Times New Roman", Times, serif;
+        font-size:16px;
+        color:white
+    }
+    #creport{
+        text-align:center;  
+        font-size:24px; 
+        font-weight:bold; 
+        text-decoration:none; 
+        font-family:"Times New Roman" , Times, serif;
+        color:lightgoldenrodyellow;
+        text-shadow: 1px 1px 2px mediumvioletred;
+    }
+    #creport:hover{
+        font-size:26px;
+        font-weight: bold;
+        color:mediumvioletred;
+        text-shadow:1px 1px 2px yellow;
+    }
+</style>
+<div class="page-wrapper">
+    <div style="padding: 110px 0 100px; padding-top:170px;" class="style1 bg-primary">
+        <div class="container">
+            <h2 class="text-light" style="font-family:Times New Roman", Times, serif>التقارير</h2>
+            <hr style="border: 1px solid black" />
+            <table class="table table-striped" style="box-shadow:10px 10px 15px white">
+                <thead>
+                    <tr>
+                        <th scope="col">
+                            العنوان باللغة العربية
+                        </th>
+                        <th scope="col">
+                            العنوان باللغة الإنجليزية
+                        </th>
+                        <th scope="col">
+                            النقاط باللغة العربية
+                        </th>
+                        <th scope="col">
+                            النقاط باللغة الإنجليزية
+                        </th>
+                        <th scope="col">
+                            الفقرات باللغة العربية
+                        </th>
+                        <th scope="col">
+                            الفقرات باللغة الإنجليزية
+                        </th>
+                        <th scope="col">
+                            الصـور
+                        </th>
+                        <th>
+                            عمليات آخرى
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                     @foreach (var item in Model.Report) {
+                    <tr>
+                        <td style="color:white">
+                                @Html.DisplayFor(modelItem => item.title_Ar)
+                            </td>
+                        <td style="color:white">
+                                @Html.DisplayFor(modelItem => item.title_En)
+                            </td>
+                        <td style="color:white">
+                                @Html.DisplayFor(modelItem => item.point_Ar)
+                            </td>
+                        <td style="color:white">
+                                @Html.DisplayFor(modelItem => item.point_En)
+                            </td>
+                        <td style="color:white">
+                                @Html.DisplayFor(modelItem => item.paragraph_Ar)
+                            </td>
+                        <td style="color:white">
+                                @Html.DisplayFor(modelItem => item.paragraph_En)
+                            </td>
+                        <td>
+                                <img src="/images/@item.Photo" width="80" height="80" />
+                        </td>
+                        <td>
+                            <a asp-page="./EditReport" asp-route-id="@item.RepId" class="btn btn-success" style="margin-bottom:5px">تعديل</a> <br/>
+                            <a asp-page="./DeleteReport" asp-route-id="@item.RepId" class="btn btn-danger">حـذف</a>
+                        </td>
+                    </tr>
+                    }
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="8">
+                            <a asp-page="CreateReport" id="creport" style="">إنشـاء تقـرير</a>
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@*
+<style>
+    th, td {
+        text-align: center;
+        font-family: "Times New Roman", Times, serif;
+        font-size: 16px;
+        color: white
+    }
+
+    #creport {
+        text-align: center;
+        font-size: 24px;
+        font-weight: bold;
+        text-decoration: none;
+        font-family: "Times New Roman", Times, serif;
+        color: lightgoldenrodyellow;
+        text-shadow: 1px 1px 2px mediumvioletred;
+    }
+
+        #creport:hover {
+            font-size: 26px;
+            font-weight: bold;
+            color: mediumvioletred;
+            text-shadow: 1px 1px 2px yellow;
+        }
+</style>
+<div class="page-wrapper">
+    <div style="padding: 110px 0 100px; padding-top:170px;" class="style1 bg-primary">
+        <div class="container">
+            <h1 class="text-light" style="font-family:Times New Roman" , Times, serif>الموظفيـن</h1>
+            <hr />
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">
+                            الإسـم
+                        </th>
+                        <th scope="col">
+                            العمـر
+                        </th>
+                        <th scope="col">
+                            العنـوان
+                        </th>
+                        <th scope="col">
+                            الوظيفة
+                        </th>
+                        <th scope="col">
+                            الراتـب
+                        </th>
+                        <th>
+                            عمليات آخرى
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.Employee)
+                    {
+                        <tr>
+                            <td style="color:white">
+                                @Html.DisplayFor(modelItem => item.Name)
+                            </td>
+                            <td style="color:white">
+                                @Html.DisplayFor(modelItem => item.Age)
+                            </td>
+                            <td style="color:white">
+                                @Html.DisplayFor(modelItem => item.Address)
+                            </td>
+                            <td style="color:white">
+                                @Html.DisplayFor(modelItem => item.Role)
+                            </td>
+                            <td style="color:white">
+                                @Html.DisplayFor(modelItem => item.Salary)
+                            </td>
+                            <td>
+                                <a asp-page="./EditEmployee" asp-route-id="@item.Id" class="btn btn-success" style="margin-bottom:5px">تعديل</a> <br />
+                                <a asp-page="./DeleteEmployee" asp-route-id="@item.Id" class="btn btn-danger">حـذف</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="8">
+                            <a asp-page="AddEmployee" id="creport" style="">إضافة موظـف</a>
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </div>
+</div>*@

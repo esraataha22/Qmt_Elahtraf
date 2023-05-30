@@ -1,0 +1,370 @@
+﻿<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="utf-8" />
+@*    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Qimt2</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Qimt2.styles.css" asp-append-version="true" />*@
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="~/assets/css/bootstrap.rtl.min.css" asp-append-version="true">
+    <link rel="stylesheet" href="~/assets/css/line-awesome.min.css" asp-append-version="true">
+    <link rel="stylesheet" href="~/assets/css/flaticon.css" asp-append-version="true">
+    <link rel="stylesheet" href="~/assets/css/owl.carousel.min.css" asp-append-version="true">
+    <link rel="stylesheet" href="~/assets/css/magnific-popup.css" asp-append-version="true">
+    <link rel="stylesheet" href="~/assets/css/fancybox.css" asp-append-version="true">
+    <link rel="stylesheet" href="~/assets/css/odometer.css" asp-append-version="true">
+    <link rel="stylesheet" href="~/assets/css/aos.css" asp-append-version="true">
+    <link rel="stylesheet" href="~/assets/css/style.css" asp-append-version="true">
+    <link rel="stylesheet" href="~/assets/css/responsive.css" 8 asp-append-version="true">
+    <link rel="stylesheet" href="~/assets/css/rtl.css" asp-append-version="true">
+    <title>قمة الإحتراف</title>
+    <link rel="icon" type="image/png" href="assets/img/favicon.png">
+</head>
+<body>
+     <div class="page-wrapper">
+        <header class="header-wrap style1">
+            @* <div class="preloader js-preloader">
+            <img src="assets/img/preloader.gif" alt="Image">
+            </div>*@
+            <div class="container">
+                <div class="header-top">
+                    <div class="close-header-top xl-none">
+                        <button type="button"><i class="las la-times"></i></button>
+                    </div>
+                    <div class="row align-items-center">
+                        <div class="col-xl-8 col-lg-12">
+                            <div class="header-top-left">
+                                <div class="contact-item">
+                                    <span class="contact-icon">
+                                        <i class="flaticon-call-1"></i>
+                                    </span>
+                                    <a href="tel:920011034">920011034</a>
+                                </div>
+                                <div class="contact-item">
+                                    <div class="contact-icon">
+                                        <i class="flaticon-pin"></i>
+                                    </div>
+                                    <p>
+                                        الرياض - حي حطين
+                                        طريق الأمير محمد بن سعد بن عبدالعزيز
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-12">
+                            <div class="header-top-right">
+                                <div class="select-lang">
+@*                                    <i class="las la-globe-americas"></i>
+*@                                    @*<div class="navbar-option-item navbar-language dropdown language-option">
+                                        <button class="dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                                aria-haspopup="true" aria-expanded="false">
+                                            <span class="lang-name"></span>
+                                        </button>
+                                        <div class="dropdown-menu language-dropdown-menu">
+                                            <a class="dropdown-item" href="#">
+                                                <img src="assets/img/uk.png" alt="flag">
+                                                English
+                                            </a>
+                                            <a class="dropdown-item" href="#">
+                                                <img src="assets/img/uae.png" alt="flag">
+                                                العربيّة
+                                            </a>
+                                        </div>
+                                    </div>*@
+                                </div>
+                                <ul class="social-profile style3 list-style">
+                                    <li>
+                                        <a target="_blank" href="https://facebook.com/">
+                                            <i class="flaticon-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="https://twitter.com/">
+                                            <i class="flaticon-twitter-1"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="https://linkedin.com/">
+                                            <i class="flaticon-linkedin-1"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="https://instagram.com/">
+                                            <i class="flaticon-instagram-1"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <a href="#" class="btn style2 xl-none">
+                                Get Started
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="header-bottom">
+                    <nav class="navbar navbar-expand-md navbar-light">
+                        <a class="navbar-brand" href="/">
+                            <img src="/assets/img/logo1.png" alt="logo">
+                        </a>
+                        <div class="collapse navbar-collapse main-menu-wrap" id="navbarSupportedContent">
+                            <div class="menu-close xl-none">
+                                <a href="javascript:void(0)"><i class="las la-times"></i></a>
+                            </div>
+                            <ul class="navbar-nav me-xl-4">
+                                <li class="nav-item">
+                                    <a asp-page="/home" class="nav-link" id="link">
+                                        الرئيسية
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a asp-page="/Blog" class="nav-link">
+                                        مدونة
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a asp-page="/Services" class="nav-link">
+                                        خدمات
+                                    </a>
+                                </li>
+                                
+                                <li class="nav-item">
+                                    <a asp-page="/Aboutus" class="nav-link">
+                                        عن الشركة
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a asp-page="/Job" class="nav-link" id="link">
+                                        الوظائف
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a asp-page="/contact" class="nav-link">اتصل بنا</a>
+                                </li>
+                                <li class="nav-item">
+                                    <partial class="nav-link text-dark" asp-area="Identity" name="_LoginPartial" />
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <div class="mobile-bar-wrap">
+                        <div class="mobile-top-bar xl-none">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <button class="searchbtn xl-none" type="button">
+                            <i class="flaticon-search"></i>
+                        </button>
+                        <div class="mobile-menu xl-none">
+                            <a href="javascript:void(0)"><i class="las la-bars"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="search-area">
+                <div class="container">
+                    <button type="button" class="close-searchbox">
+                        <i class="las la-times"></i>
+                    </button>
+                    <form action="#">
+                        <div class="form-group">
+                            <input type="search" placeholder="Search Here" autofocus>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </header>
+    <div>
+            <div class="page-wrapper">
+                <section class="hero-wrap ">
+                        @RenderBody()
+                </section>
+            </div>
+
+    </div>
+
+     <footer class="footer-wrap style1 bg-f">
+            <img src="/assets/img/footer-shape.png" alt="Image" class="footer-shape" data-speed="0.2" data-revert="true">
+            <div class="footer-top  pt-100 pb-70">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6">
+                            <div class="footer-widget">
+                                <a href="/" class="footer-logo">
+                                    <img src="/assets/img/logo2.png" alt="Image">
+                                </a>
+                                <p class="comp-desc">
+                                    شركة قمة الإحتراف لتقنية المعلومات
+                                    <br>السجل التجاري
+                                    <br>1010599974
+                                    <br>الرقم الضريبي
+                                    <br>310437558100003
+                                </p>
+                                <ul class="social-profile style1 list-style">
+                                    <li>
+                                        <a target="_blank" href="https://facebook.com/">
+                                            <i class="flaticon-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="https://twitter.com/">
+                                            <i class="flaticon-twitter-1"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="https://linkedin.com/">
+                                            <i class="flaticon-linkedin-1"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="https://instagram.com/">
+                                            <i class="flaticon-instagram-1"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-6 col-md-6 col-sm-6">
+                            <div class="footer-widget">
+                                <h3 class="footer-widget-title">روابط مختصرة</h3>
+                                <ul class="footer-menu list-style">
+                                    <li>
+                                        <a href="/Aboutus">
+                                            <i class="flaticon-next"></i>
+                                            عن الشركة
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/Blog">
+                                            <i class="flaticon-next"></i>
+                                            المدونـه
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/Services">
+                                            <i class="flaticon-next"></i>
+                                            خدماتنا
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/Job">
+                                            <i class="flaticon-next"></i>
+                                            الوظائف 
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/Contact">
+                                            <i class="flaticon-next"></i>
+                                            اتصل بنا
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 ps-xl-5">
+                            <div class="footer-widget">
+                                <h3 class="footer-widget-title">خدماتنا</h3>
+                                <ul class="footer-menu list-style">
+                                    <li>
+                                        <a href="/Services">
+                                            <i class="flaticon-next"></i>
+                                            برمجة المواقع و التطبيقات
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/Services/#service2">
+                                            <i class="flaticon-next"></i>
+                                            تصميم مواقع
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/Services/#service3">
+                                            <i class="flaticon-next"></i>
+                                            تصميم تطبيقات الجوال
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/Services/#service4">
+                                            <i class="flaticon-next"></i>
+                                            تصميم متجر إلكترونى
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/Services/#service5">
+                                            <i class="flaticon-next"></i>
+                                            تحسين محركات البحث (SEO)
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/Services/#service6">
+                                            <i class="flaticon-next"></i>
+                                            الدومين و إستضافة المواقع
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/Services/#service7">
+                                            <i class="flaticon-next"></i>
+                                            الخدمات السحابية
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 ps-xl-4">
+                            <div class="footer-widget">
+                                <h3 class="footer-widget-title">Contact Us</h3>
+                                <ul class="contact-info list-style">
+                                    <li>
+                                        <i class="flaticon-call-1"></i>
+                                        <a href="tel:920011034">920011034</a>
+                                    </li>
+                                    <li>
+                                        <i class="flaticon-email"></i>
+                                        <a href="/Contact"><span class="__cf_email__" data-cfemail="#">Sales@QimatAlehteraf.com </span></a>
+
+                                    </li>
+                                    <li>
+                                        <i class="flaticon-pin"></i>
+                                        <p>
+                                            الرياض - حي حطين
+                                            طريق الأمير محمد بن سعد بن عبدالعزيز
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+
+    </div>
+    <a href="javascript:void(0)" class="back-to-top"><i class="las la-arrow-up"></i></a>
+    <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/form-validator.min.js"></script>
+    <script src="assets/js/contact-form-script.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/jquery-magnific-popup.js"></script>
+    <script src="assets/js/fancybox.js"></script>
+    <script src="assets/js/progressbar.min.js"></script>
+    <script src="assets/js/jquery.appear.js"></script>
+    <script src="assets/js/odometer.min.js"></script>
+    <script src="assets/js/tweenmax.min.js"></script>
+    <script src="assets/js/main.js"></script>
+
+@*    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>*@
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

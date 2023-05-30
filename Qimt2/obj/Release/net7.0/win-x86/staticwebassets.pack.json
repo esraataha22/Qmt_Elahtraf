@@ -1,0 +1,885 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\obj\\Release\\net7.0\\win-x86\\scopedcss\\projectbundle\\Qimt2.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Qimt2.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\css\\aos.css",
+      "PackagePath": "staticwebassets\\assets\\css\\aos.css"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\css\\fancybox.css",
+      "PackagePath": "staticwebassets\\assets\\css\\fancybox.css"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\css\\flaticon.css",
+      "PackagePath": "staticwebassets\\assets\\css\\flaticon.css"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\css\\line-awesome.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\line-awesome.min.css"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\css\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\assets\\css\\magnific-popup.css"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\css\\odometer.css",
+      "PackagePath": "staticwebassets\\assets\\css\\odometer.css"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\css\\owl.video.play.html",
+      "PackagePath": "staticwebassets\\assets\\css\\owl.video.play.html"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\assets\\css\\responsive.css"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\css\\rtl.css",
+      "PackagePath": "staticwebassets\\assets\\css\\rtl.css"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\assets\\css\\style.css"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\fonts\\flaticon2eba.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\flaticon2eba.eot"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\fonts\\flaticon2eba.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\flaticon2eba.svg"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\fonts\\flaticon2eba.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\flaticon2eba.ttf"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\fonts\\flaticon2eba.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\flaticon2eba.woff"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\fonts\\flaticon2eba.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\flaticon2eba.woff2"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\fonts\\la-brands-400.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\la-brands-400.eot"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\fonts\\la-brands-400.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\la-brands-400.svg"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\fonts\\la-brands-400.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\la-brands-400.ttf"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\fonts\\la-brands-400.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\la-brands-400.woff"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\fonts\\la-brands-400.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\la-brands-400.woff2"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\fonts\\la-brands-400d41d.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\la-brands-400d41d.eot"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\fonts\\la-regular-400.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\la-regular-400.eot"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\fonts\\la-regular-400.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\la-regular-400.svg"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\fonts\\la-regular-400.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\la-regular-400.ttf"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\fonts\\la-regular-400.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\la-regular-400.woff"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\fonts\\la-regular-400.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\la-regular-400.woff2"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\fonts\\la-regular-400d41d.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\la-regular-400d41d.eot"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\fonts\\la-solid-900.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\la-solid-900.eot"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\fonts\\la-solid-900.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\la-solid-900.svg"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\fonts\\la-solid-900.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\la-solid-900.ttf"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\fonts\\la-solid-900.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\la-solid-900.woff"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\fonts\\la-solid-900.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\la-solid-900.woff2"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\fonts\\la-solid-900d41d.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\la-solid-900d41d.eot"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\img\\404.png",
+      "PackagePath": "staticwebassets\\assets\\img\\404.png"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\img\\about\\ab1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\about\\ab1.png"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\img\\about\\ab2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\about\\ab2.png"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\img\\about\\ab3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\about\\ab3.png"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\img\\about\\about-img-1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\about\\about-img-1.png"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\img\\about\\about-img-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\about\\about-img-2.jpg"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\img\\about\\about-img-3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\about\\about-img-3.png"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\img\\about\\about-img-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\about\\about-img-4.jpg"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\img\\about\\about-shape-1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\about\\about-shape-1.png"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\img\\about\\about.jpeg",
+      "PackagePath": "staticwebassets\\assets\\img\\about\\about.jpeg"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\img\\about\\contact-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\about\\contact-bg.jpg"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\img\\about\\curve-shape-1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\about\\curve-shape-1.png"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\img\\about\\dot-shape-1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\about\\dot-shape-1.png"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\img\\about\\faq-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\about\\faq-1.jpg"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\img\\about\\faq-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\about\\faq-2.jpg"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\img\\analysis\\shape-1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\analysis\\shape-1.png"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\img\\blog\\blog-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\blog-1.jpg"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\img\\blog\\blog-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\blog-2.jpg"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\img\\blog\\blog-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\blog-3.jpg"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\img\\breadcrumb\\breadcrumb-4.html",
+      "PackagePath": "staticwebassets\\assets\\img\\breadcrumb\\breadcrumb-4.html"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\img\\contact\\cont.png",
+      "PackagePath": "staticwebassets\\assets\\img\\contact\\cont.png"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\img\\contact\\contact2.gif",
+      "PackagePath": "staticwebassets\\assets\\img\\contact\\contact2.gif"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\img\\contact\\contactus.png",
+      "PackagePath": "staticwebassets\\assets\\img\\contact\\contactus.png"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\img\\contact\\contactuss.png",
+      "PackagePath": "staticwebassets\\assets\\img\\contact\\contactuss.png"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\img\\down-arrow.html",
+      "PackagePath": "staticwebassets\\assets\\img\\down-arrow.html"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\img\\edit.png",
+      "PackagePath": "staticwebassets\\assets\\img\\edit.png"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\img\\employee.png",
+      "PackagePath": "staticwebassets\\assets\\img\\employee.png"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\img\\employee1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\employee1.png"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\img\\favicon.png",
+      "PackagePath": "staticwebassets\\assets\\img\\favicon.png"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\img\\footer-shape.png",
+      "PackagePath": "staticwebassets\\assets\\img\\footer-shape.png"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\img\\hero\\cloud-shape.png",
+      "PackagePath": "staticwebassets\\assets\\img\\hero\\cloud-shape.png"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\img\\hero\\hero-bg-1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\hero\\hero-bg-1.png"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\img\\hero\\hero-img-1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\hero\\hero-img-1.png"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\img\\hero\\hero-shape-1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\hero\\hero-shape-1.png"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\img\\hero\\hero-shape-2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\hero\\hero-shape-2.png"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\img\\hero\\hero-shape-3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\hero\\hero-shape-3.png"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\img\\hero\\hero-shape-6.png",
+      "PackagePath": "staticwebassets\\assets\\img\\hero\\hero-shape-6.png"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\img\\hero\\hero-shape-7.png",
+      "PackagePath": "staticwebassets\\assets\\img\\hero\\hero-shape-7.png"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\img\\hero\\hero-shape-8.png",
+      "PackagePath": "staticwebassets\\assets\\img\\hero\\hero-shape-8.png"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\img\\hero\\hero-shape-9.png",
+      "PackagePath": "staticwebassets\\assets\\img\\hero\\hero-shape-9.png"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\img\\hero\\shape-1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\hero\\shape-1.png"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\img\\hero\\shape-2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\hero\\shape-2.png"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\img\\hero\\shape-3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\hero\\shape-3.png"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\img\\jj.png",
+      "PackagePath": "staticwebassets\\assets\\img\\jj.png"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\img\\job.png",
+      "PackagePath": "staticwebassets\\assets\\img\\job.png"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\img\\job1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\job1.png"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\img\\jobb.png",
+      "PackagePath": "staticwebassets\\assets\\img\\jobb.png"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\img\\jobb2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\jobb2.png"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\img\\line-shape-1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\line-shape-1.png"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\img\\line-shape-2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\line-shape-2.png"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\img\\login.png",
+      "PackagePath": "staticwebassets\\assets\\img\\login.png"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\img\\logo-black.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logo-black.png"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\img\\logo-white.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logo-white.png"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\img\\logo1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logo1.png"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\img\\logo2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logo2.png"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\img\\msg.png",
+      "PackagePath": "staticwebassets\\assets\\img\\msg.png"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\img\\order.png",
+      "PackagePath": "staticwebassets\\assets\\img\\order.png"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\img\\preloader.gif",
+      "PackagePath": "staticwebassets\\assets\\img\\preloader.gif"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\img\\pricing\\pricing-icon-1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\pricing\\pricing-icon-1.png"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\img\\pricing\\pricing-icon-2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\pricing\\pricing-icon-2.png"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\img\\pricing\\pricing-icon-3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\pricing\\pricing-icon-3.png"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\img\\project\\single-project-1.html",
+      "PackagePath": "staticwebassets\\assets\\img\\project\\single-project-1.html"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\img\\qmt.png",
+      "PackagePath": "staticwebassets\\assets\\img\\qmt.png"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\img\\qmt2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\qmt2.png"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\img\\report.png",
+      "PackagePath": "staticwebassets\\assets\\img\\report.png"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\img\\report2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\report2.png"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\img\\report\\accprog.png",
+      "PackagePath": "staticwebassets\\assets\\img\\report\\accprog.png"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\img\\report\\mobddev.png",
+      "PackagePath": "staticwebassets\\assets\\img\\report\\mobddev.png"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\img\\reports.png",
+      "PackagePath": "staticwebassets\\assets\\img\\reports.png"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\img\\rocket-shape.png",
+      "PackagePath": "staticwebassets\\assets\\img\\rocket-shape.png"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\img\\services\\accprog.png",
+      "PackagePath": "staticwebassets\\assets\\img\\services\\accprog.png"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\img\\services\\cloud.png",
+      "PackagePath": "staticwebassets\\assets\\img\\services\\cloud.png"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\img\\services\\design.png",
+      "PackagePath": "staticwebassets\\assets\\img\\services\\design.png"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\img\\services\\ecommerce.png",
+      "PackagePath": "staticwebassets\\assets\\img\\services\\ecommerce.png"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\img\\services\\mobile.png",
+      "PackagePath": "staticwebassets\\assets\\img\\services\\mobile.png"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\img\\services\\seo.png",
+      "PackagePath": "staticwebassets\\assets\\img\\services\\seo.png"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\img\\services\\seo2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\services\\seo2.png"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\img\\services\\service.png",
+      "PackagePath": "staticwebassets\\assets\\img\\services\\service.png"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\img\\services\\webdesign.png",
+      "PackagePath": "staticwebassets\\assets\\img\\services\\webdesign.png"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\img\\services\\webhosting.png",
+      "PackagePath": "staticwebassets\\assets\\img\\services\\webhosting.png"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\img\\uae.png",
+      "PackagePath": "staticwebassets\\assets\\img\\uae.png"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\img\\uk.png",
+      "PackagePath": "staticwebassets\\assets\\img\\uk.png"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\img\\why-choose-us\\why-choose-img-1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\why-choose-us\\why-choose-img-1.png"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\js\\aos.js",
+      "PackagePath": "staticwebassets\\assets\\js\\aos.js"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\js\\contact-form-script.js",
+      "PackagePath": "staticwebassets\\assets\\js\\contact-form-script.js"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\js\\fancybox.js",
+      "PackagePath": "staticwebassets\\assets\\js\\fancybox.js"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\js\\form-validator.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\form-validator.min.js"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\js\\jquery-magnific-popup.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery-magnific-popup.js"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\js\\jquery.appear.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.appear.js"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\js\\main.js",
+      "PackagePath": "staticwebassets\\assets\\js\\main.js"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\js\\odometer.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\odometer.min.js"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\js\\progressbar.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\progressbar.min.js"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\assets\\js\\tweenmax.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\tweenmax.min.js"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\images\\202332702249.jpg",
+      "PackagePath": "staticwebassets\\images\\202332702249.jpg"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\images\\202332703711.jpg",
+      "PackagePath": "staticwebassets\\images\\202332703711.jpg"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\images\\202332703739.jpg",
+      "PackagePath": "staticwebassets\\images\\202332703739.jpg"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\images\\202341012447.jpg",
+      "PackagePath": "staticwebassets\\images\\202341012447.jpg"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\images\\202341133830.png",
+      "PackagePath": "staticwebassets\\images\\202341133830.png"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\images\\20234113439.png",
+      "PackagePath": "staticwebassets\\images\\20234113439.png"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\images\\202341134624.png",
+      "PackagePath": "staticwebassets\\images\\202341134624.png"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\images\\202341134639.jpg",
+      "PackagePath": "staticwebassets\\images\\202341134639.jpg"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\images\\202341135358.jpg",
+      "PackagePath": "staticwebassets\\images\\202341135358.jpg"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\images\\202341135445.jpg",
+      "PackagePath": "staticwebassets\\images\\202341135445.jpg"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\images\\202341304139.jpg",
+      "PackagePath": "staticwebassets\\images\\202341304139.jpg"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\images\\202341304428.jpg",
+      "PackagePath": "staticwebassets\\images\\202341304428.jpg"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\images\\202341304657.png",
+      "PackagePath": "staticwebassets\\images\\202341304657.png"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\images\\202341305333.jpg",
+      "PackagePath": "staticwebassets\\images\\202341305333.jpg"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\images\\202341305423.jpg",
+      "PackagePath": "staticwebassets\\images\\202341305423.jpg"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\images\\20234130552.jpg",
+      "PackagePath": "staticwebassets\\images\\20234130552.jpg"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\images\\202341362816.jpg",
+      "PackagePath": "staticwebassets\\images\\202341362816.jpg"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\images\\202341362839.jpg",
+      "PackagePath": "staticwebassets\\images\\202341362839.jpg"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\images\\202341725326.png",
+      "PackagePath": "staticwebassets\\images\\202341725326.png"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\images\\20234173132.png",
+      "PackagePath": "staticwebassets\\images\\20234173132.png"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\images\\202349233317.jpg",
+      "PackagePath": "staticwebassets\\images\\202349233317.jpg"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\images\\202349233421.jpg",
+      "PackagePath": "staticwebassets\\images\\202349233421.jpg"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\images\\202349235754.png",
+      "PackagePath": "staticwebassets\\images\\202349235754.png"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\images\\20234923589.png",
+      "PackagePath": "staticwebassets\\images\\20234923589.png"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\Qimat\\test\\Qmt_2\\Qimt2\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\win-x86\\staticwebassets\\msbuild.Qimt2.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\win-x86\\staticwebassets\\msbuild.build.Qimt2.props",
+      "PackagePath": "build\\Qimt2.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\win-x86\\staticwebassets\\msbuild.buildMultiTargeting.Qimt2.props",
+      "PackagePath": "buildMultiTargeting\\Qimt2.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\win-x86\\staticwebassets\\msbuild.buildTransitive.Qimt2.props",
+      "PackagePath": "buildTransitive\\Qimt2.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

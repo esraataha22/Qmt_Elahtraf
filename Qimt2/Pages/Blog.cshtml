@@ -1,0 +1,37 @@
+﻿@page
+@model Qimt2.Pages.ReportsModel
+
+@{
+    ViewData["Title"] = "Reports";
+}
+
+<div class="page-wrapper">
+    <div style="padding: 110px 0 100px; padding-top:170px;" class="style1 bg-primary">
+        <div class="container">
+            @foreach (var item in Model.Report)
+            {
+                    <div class="row gx-5 align-items-center">
+                        <div class="col-lg-6">
+                            <div class="hero-conten" data-speed="0.06" data-revert="true">
+                                <h1 data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500" style="color:white; font-family:Times New Roman" , Times, serif;">
+                                @Html.DisplayFor(modelItem => item.title_Ar)
+                                </h1>
+                                <h3 data-aos="fade-right" data-aos-duration="800" data-aos-delay="600" style="color:white; font-family:Times New Roman" , Times, serif;">
+                                @Html.DisplayFor(modelItem => item.point_Ar)
+                                </h3>
+                                <p data-aos="fade-right" data-aos-duration="1000" data-aos-delay="800" style="color:white; font-family:Times New Roman" , Times, serif;">
+                                @Html.DisplayFor(modelItem => item.paragraph_Ar)
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="hero-img" data-speed="0.06" data-revert="true">
+                                <img src="/images/@item.Photo" alt="Image" width="400" height="300">
+                            </div>
+                        </div>
+                    </div>
+                    <br />
+            }
+        </div>
+    </div>
+</div>

@@ -1,0 +1,31 @@
+﻿@{
+    if (ViewData.TryGetValue("ParentLayout", out var parentLayout) && parentLayout !=  null)
+    {
+        Layout = parentLayout.ToString();
+    }
+    else
+    {
+        Layout = "/Areas/Identity/Pages/_Layout.cshtml";
+    }
+}
+<div class="page-wrapper">
+    <section class="hero-wrap style1">
+        <div class="row" style="padding-right: 100px;" class="style1 bg-primary">
+            <h2 style="color:white; font-family:Times New Roman" , Times, serif;">إدارة الحسـاب</h2>
+            <hr />
+<div>
+    <div class="row">
+        <div class="col-md-3">
+            <partial name="_ManageNav" />
+        </div>
+        <div class="col-md-9">
+            @RenderBody()
+        </div>
+    </div>
+</div>
+</div>
+</section>
+</div>
+@section Scripts {
+    @RenderSection("Scripts", required: false)
+}

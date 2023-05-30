@@ -1,0 +1,89 @@
+﻿@page
+@model Qimt2.Pages.RequestsModel
+
+@{
+    ViewData["Title"] = "Requests";
+}
+
+<style>
+    th, td {
+        text-align: center;
+        font-family: "Times New Roman", Times, serif;
+        font-size: 16px;
+        color: white
+    }
+
+    #creport {
+        text-align: center;
+        font-size: 24px;
+        font-weight: bold;
+        text-decoration: none;
+        font-family: "Times New Roman", Times, serif;
+        color: lightgoldenrodyellow;
+        text-shadow: 1px 1px 2px mediumvioletred;
+    }
+
+        #creport:hover {
+            font-size: 26px;
+            font-weight: bold;
+            color: mediumvioletred;
+            text-shadow: 1px 1px 2px yellow;
+        }
+</style>
+<div class="page-wrapper">
+    <div style="padding: 110px 0 100px; padding-top:170px;" class="style1 bg-primary">
+        <div class="container">
+            <h2 class="text-light" style="font-family:Times New Roman" , Times, serif>الطلبات</h2>
+            <hr style="border: 1px solid black" />
+            <table class="table table-striped" style="box-shadow:10px 10px 15px white">
+                <thead>
+                    <tr>
+                        <th scope="col">
+                            الإسـم
+                        </th>
+                        <th scope="col">
+                            رقم التليفـون
+                        </th>
+                        <th scope="col">
+                            البريد الإلكترونـى
+                        </th>
+                        <th scope="col">
+                            نوع الطلب
+                        </th>
+                        <th>
+                             وصف الطلب
+                        </th>
+                        <th>
+                            عمليات آخرى
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.Service)
+                    {
+                        <tr>
+                            <td style="color:white">
+                                @Html.DisplayFor(modelItem => item.FullName)
+                            </td>
+                            <td style="color:white">
+                                @Html.DisplayFor(modelItem => item.Phone)
+                            </td>
+                            <td style="color:white">
+                                @Html.DisplayFor(modelItem => item.Email)
+                            </td>
+                            <td style="color:white">
+                                @Html.DisplayFor(modelItem => item.ServiceType)
+                            </td>
+                            <td style="color:white">
+                                @Html.DisplayFor(modelItem => item.ServiceDescription)
+                            </td>
+                            <td>
+                                <a asp-page="./DeleteRequest" asp-route-id="@item.Id" class="btn btn-danger">حـذف</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

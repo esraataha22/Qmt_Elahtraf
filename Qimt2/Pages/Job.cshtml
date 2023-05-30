@@ -1,0 +1,62 @@
+﻿@page
+@model Qimt2.Pages.JobModel
+
+@{
+    ViewData["Title"] = "Job";
+}
+<div class="page-wrapper">
+    <section class="hero-wrap style1">
+        <div class="row" style="padding-right: 100px;" class="style1 bg-primary">
+            <div class="row justify-content-center">
+                @foreach (var item in Model.Jobs) {
+
+                <div class="col-xl-4 col-lg-6 col-md-6">
+                        <div class="service-card style1" style="border:2px solid white; box-shadow:5px 5px 10px white;">
+                        <span class="service-icon clr-dodger " style="margin-right:37%;">
+                        <img src="assets/img/jj.png" width="50" style="margin:17px"/>
+                        </span>
+                        <div class="service-info" style="text-align:center">
+                            <h1 class="text-dark" style="font-family:Times New Roman" , Times, serif">
+                                    @Html.DisplayFor(modelItem => item.Name)
+                            </h1>
+                            <hr/>
+                            <p>
+                                    @Html.DisplayFor(modelItem => item.About)
+                            </p>
+                            <br>
+                                <a asp-page="./Details" asp-route-id="@item.Id" class="btn style1" style="border:1px black solid">عرض التفاصيل</a>
+                        </div>
+                    </div>
+                </div>
+                }
+            </div>
+@*
+ <table class="table">
+ 
+    <tbody>
+@foreach (var item in Model.Jobs) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.About)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Requirements)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Responsibilities)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+        </div>
+    </section>
+</div>*@

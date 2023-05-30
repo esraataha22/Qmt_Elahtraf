@@ -1,0 +1,91 @@
+﻿@page
+@model Qimt2.Pages.JobsModel
+
+@{
+    ViewData["Title"] = "Jobs";
+}
+
+<style>
+    th, td {
+        text-align: center;
+        font-family: "Times New Roman", Times, serif;
+        font-size: 16px;
+        color: white
+    }
+
+    #creport {
+        text-align: center;
+        font-size: 24px;
+        font-weight: bold;
+        text-decoration: none;
+        font-family: "Times New Roman", Times, serif;
+        color: lightgoldenrodyellow;
+        text-shadow: 1px 1px 2px mediumvioletred;
+    }
+
+        #creport:hover {
+            font-size: 26px;
+            font-weight: bold;
+            color: mediumvioletred;
+            text-shadow: 1px 1px 2px yellow;
+        }
+</style>
+<div class="page-wrapper">
+    <div style="padding: 110px 0 100px; padding-top:170px;" class="style1 bg-primary">
+        <div class="container">
+            <h2 class="text-light" style="font-family:Times New Roman" , Times, serif>الوظائـف</h2>
+            <hr style="border: 1px solid black" />
+            <table class="table table-striped" style="box-shadow:10px 10px 15px white">
+                <thead>
+                    <tr>
+                        <th scope="col">
+                            اسـم الوظيفـة
+                        </th>
+                        <th scope="col">
+                            عن الوظيفـة
+                        </th>
+                        <th scope="col">
+                            متطلبات الوظيفـة
+                        </th>
+                        <th scope="col">
+                            مسئوليات الوظيفـة
+                        </th>
+                        <th>
+                            عمليات آخرى
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.Jobs)
+                    {
+                        <tr>
+                            <td style="color:white">
+                                @Html.DisplayFor(modelItem => item.Name)
+                            </td>
+                            <td style="color:white">
+                                @Html.DisplayFor(modelItem => item.About)
+                            </td>
+                            <td style="color:white">
+                                @Html.DisplayFor(modelItem => item.Requirements)
+                            </td>
+                            <td style="color:white">
+                                @Html.DisplayFor(modelItem => item.Responsibilities)
+                            </td>
+                            <td>
+                                <a asp-page="./EditJob" asp-route-id="@item.Id" class="btn btn-success" style="margin-bottom:5px">تعديل</a> &nbsp;
+                                <a asp-page="./DeleteJob" asp-route-id="@item.Id" class="btn btn-danger">حـذف</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="8">
+                            <a asp-page="CreateJob" id="creport" style="">إنشاء وظيفـة</a>
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </div>
+</div>

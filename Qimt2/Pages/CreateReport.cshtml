@@ -1,0 +1,66 @@
+﻿@page
+@model Qimt2.Pages.CreateReportModel
+
+@{
+    ViewData["Title"] = "CreateReport";
+}
+<div class="page-wrapper">
+    <section class="hero-wrap style1">
+        <div class="container">
+            <h2 class="text-light" style="font-family:Times New Roman" , Times, serif">إنشـاء تقرير</h2>
+            <hr style="border: 1px solid black" />
+            <div class="row">
+                <div class="col-lg-6 col-md-12">
+                    <form method="post" enctype="multipart/form-data">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <div class="form-group">
+                            <input asp-for="Report.title_Ar" class="form-control" placeholder="عنوان التقرير باللغة العربية"/>
+                            <span asp-validation-for="Report.title_Ar" class="text-danger"></span>
+                        </div>
+                        <br/>
+                        <div class="form-group">
+                            <input asp-for="Report.title_En" class="form-control" placeholder="عنوان التقرير باللغة الإنجليزية"/>
+                            <span asp-validation-for="Report.title_En" class="text-danger"></span>
+                        </div>
+                        <br/>
+                        <div class="form-group">
+                            <input asp-for="Report.point_Ar" class="form-control" placeholder="النقاط باللغة العربية"/>
+                            <span asp-validation-for="Report.point_Ar" class="text-danger"></span>
+                        </div>
+                        <br/>
+                        <div class="form-group">
+                            <input asp-for="Report.point_En" class="form-control" placeholder="النقاط باللغة الإنجليزية" />
+                            <span asp-validation-for="Report.point_En" class="text-danger"></span>
+                        </div>
+                        <br/>
+                        <div class="form-group">
+                            <textarea class="form-control" asp-for="Report.paragraph_Ar" placeholder="الفقرات باللغة العربية" id="floatingTextarea2" style="height: 100px"></textarea>
+                            <span asp-validation-for="Report.paragraph_Ar" class="text-danger"></span>
+                        </div>
+                        <br/>
+                        <div class="form-group">
+                            <textarea class="form-control" asp-for="Report.paragraph_En" placeholder="الفقرات باللغة الإنجليزية" id="floatingTextarea2" style="height: 100px"></textarea>
+                            <span asp-validation-for="Report.paragraph_En" class="text-danger"></span>
+                        </div>
+                        <br/>
+                        <div class="form-group">
+                            <input asp-for="Report.file" class="form-control" />
+                        </div>
+                        <br/>
+                        <div class="form-group">
+                            <input type="submit" value="إنشاء" class="btn style2" />
+                        </div>
+                    </form>
+                </div>
+                <div class="col-lg-6 col-md-4 d-flex justify-content-center">
+                    <img src="assets/img/report.png"/>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,64 @@
+﻿@page
+@model Qimt2.Pages.DeleteJobModel
+
+@{
+    ViewData["Title"] = "DeleteJob";
+}
+
+
+<style>
+    th {
+        font-size: 16px;
+        color: white;
+    }
+</style>
+
+<div class="page-wrapper">
+    <div style="padding: 110px 0 100px; padding-top:170px;" class="style1 bg-primary">
+        <div class="container">
+            <h2 style="color:white; font-family:Times New Roman" , Times, serif;">هل تريد بالتأكيد حذف الوظيفة ؟</h2>
+            <hr style="border: 1px solid black" />
+            <br />
+            <div>
+                <table class="table table-striped" style="box-shadow:10px 10px 15px white">
+                    <thead>
+                        <tr>
+                            <th scope="col">
+                                اسـم الوظيفـة
+                            </th>
+                            <th scope="col">
+                                عن الوظيفـة
+                            </th>
+                            <th scope="col">
+                                متطلبات الوظيفـة
+                            </th>
+                            <th scope="col">
+                                مسئوليات الوظيفـة
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="color:white">
+                                @Html.DisplayFor(model => model.Jobs.Name)
+                            </td>
+                            <td style="color:white">
+                                @Html.DisplayFor(model => model.Jobs.About)
+                            </td>
+                            <td style="color:white">
+                                @Html.DisplayFor(model => model.Jobs.Requirements)
+                            </td>
+                            <td style="color:white">
+                                @Html.DisplayFor(model => model.Jobs.Responsibilities)
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <form method="post" style="direction:ltr">
+                    <input type="hidden" asp-for="Jobs.Id" />
+                    <input type="submit" value="حـذف" class="btn btn-danger" />
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

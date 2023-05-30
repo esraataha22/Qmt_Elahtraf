@@ -1,0 +1,56 @@
+﻿@page
+@model Qimt2.Pages.ServiceRequestsModel
+
+@{
+    ViewData["Title"] = "ServiceRequests";
+}
+<div class="page-wrapper">
+    <form method="post" id="frm" style="padding: 110px 0 100px; padding-top:170px;" class="style1 bg-primary">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="container">
+            <h2 class="text-light" style="font-family:Times New Roman" , Times, serif>تقديـم طلـب</h2>
+            <hr style="border: 1px solid black" />
+
+            <div class="row">
+                <div class="col-lg-7">
+                    <input asp-for="Service.FullName" class="form-control" placeholder="الإسـم بالكامل"/>
+                    <span asp-validation-for="Service.FullName" class="text-danger"></span>
+                       <br />
+                    <input asp-for="Service.Phone" class="form-control" placeholder="رقم التليفون"/>
+                    <span asp-validation-for="Service.Phone" class="text-danger"></span>
+                       <br />
+                    <input asp-for="Service.Email" class="form-control" placeholder="البريد الإلكترونى"/>
+                    <span asp-validation-for="Service.Email" class="text-danger"></span>
+                       <br />
+                    <select asp-for="Service.ServiceType" id="ServiceType" class="form-control">
+                        <option value="برمجة المواقع و التطبيقات">برمجة المواقع و التطبيقات</option>
+                        <option value="تصميم مواقع">تصميم مواقع</option>
+                        <option value="تصميـم تطبيقات الجوال">تصميـم تطبيقات الجوال</option>
+                        <option value="تصميـم متجر إلكترونى">تصميـم متجر إلكترونى</option>
+                        <option value="خدمات SEO">خدمات SEO</option>
+                        <option value="الدومين و استضافة المواقع">الدومين و استضافة المواقع</option>
+                        <option value="الخدمات السحابية">الخدمات السحابية</option>
+                    </select>
+                    <span asp-validation-for="Service.ServiceType" class="text-danger"></span>
+                        <br /> 
+                    <textarea asp-for="Service.ServiceDescription" class="form-control" placeholder="الوصـف" style="height: 100px"></textarea>
+                    <span asp-validation-for="Service.ServiceDescription" class="text-danger"></span>
+                    <br />
+                    <button type="submit" name="confirm" class="btn style2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        إرسال الطلب
+                    </button>
+                </div>
+                &nbsp;
+                <div class="col-lg-4" style="margin-right:50px; margin-top:50px;">
+                    <img src="assets/img/services/service.png" width="600" alt="missing" />
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+    
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

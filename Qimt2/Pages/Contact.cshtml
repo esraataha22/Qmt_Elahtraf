@@ -1,0 +1,137 @@
+﻿@page
+@model Qimt2.Pages.ContactModel
+
+@{
+    ViewData["Title"] = "Contact";
+}
+<script>
+    function check(total) {
+        var x = $("#sum").val();
+        if (x == total) {
+            $("#frm").submit();
+            document.getElementById('confirmbtn').className = "btn btn-success";
+            document.getElementById('msg').className = "text-success";
+        }
+        else {
+            document.getElementById('confirmbtn').className = "btn btn-danger";
+            document.getElementById('msg').className = "text-danger";
+        }
+    }
+</script>
+<div class="page-wrapper">
+    <form method="post" id="frm" style="padding: 110px 0 100px; padding-top:170px;" class="style1 bg-primary">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+        <div class="container">
+            <div class="row d-flex justify-content-between">
+                <div class="col-lg-7">
+                    <input type="text" class="form-control" asp-for="Contactus.Name" id="exampleDataList" placeholder="الاسـم بالكامل">
+                    <span asp-validation-for="Contactus.Name" class="text-danger"></span>
+                    <br /> <br />
+                    <input class="form-control" asp-for="Contactus.Email" placeholder="البريد الالكترونى">
+                    <span asp-validation-for="Contactus.Email" class="text-danger"></span>
+                    <br /> <br />
+                    <input class="form-control" asp-for="Contactus.Phone" id="exampleDataList" placeholder="رقـم التليفون">
+                    <span asp-validation-for="Contactus.Phone" class="text-danger"></span>
+                    <br /> <br />
+                    <textarea class="form-control" asp-for="Contactus.Comment" placeholder="الرسـالة" id="floatingTextarea2" style="height: 100px"></textarea>
+                    <span asp-validation-for="Contactus.Comment" class="text-danger"></span>
+
+                    <br /> <br />
+                    <button type="button" name="confirm" class="btn style2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        تأكيد
+                    </button>
+                </div>
+                &nbsp;
+                <div class="col-lg-4">
+                    <img src="assets/img/contact/cont.png" width="500px"  alt="missing" />
+                </div>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog  alert alert-primary">
+                    <div class="modal-content" role="alert">
+                        <div class="modal-header">
+                            <h5 class="modal-title text-primary" id="exampleModalLabel">تأكــيد</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <label name="num1" class="text-primary" style="font-size:18px">
+                                @{
+                                    Random random1 = new Random();
+                                    int num1 = random1.Next(100);
+                                } @num1
+                            </label>
+                            <label class="text-primary" style="font-size:18px">+</label>
+                            <label name="num2" class="text-primary" style="font-size:18px">
+                                @{
+                                    Random random2 = new Random();
+                                    int num2 = random2.Next(100);
+                                    var result = num1 + num2;
+                                } @num2
+                            </label>
+                            <label class="text-primary" style="font-size:18px">=</label>
+                            <input type="number" id="sum" name="sum" width="80" placeholder="Enter the sum" required style="font-size:18px; color:saddlebrown" />
+                            <label id="msg"></label>
+
+                        </div>
+                        <div class="modal-footer">
+                            <Button type="button" id="confirmbtn" class="btn btn-primary" onclick="check(@result)">
+                                تم
+                            </Button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+
+</div>
+
+@*<h1>Contact</h1>
+
+<h4>Contactus</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Contactus.Name" class="control-label"></label>
+                <input asp-for="Contactus.Name" class="form-control" />
+                <span asp-validation-for="Contactus.Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Contactus.Email" class="control-label"></label>
+                <input asp-for="Contactus.Email" class="form-control" />
+                <span asp-validation-for="Contactus.Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Contactus.Phone" class="control-label"></label>
+                <input asp-for="Contactus.Phone" class="form-control" />
+                <span asp-validation-for="Contactus.Phone" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Contactus.Comment" class="control-label"></label>
+                <input asp-for="Contactus.Comment" class="form-control" />
+                <span asp-validation-for="Contactus.Comment" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="Index">Back to List</a>
+</div>*@
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+
+    }
+}

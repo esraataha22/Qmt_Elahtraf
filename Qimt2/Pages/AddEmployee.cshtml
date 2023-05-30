@@ -1,0 +1,54 @@
+﻿@page
+@model Qimt2.Pages.EmployeeModel
+
+@{
+}
+
+<div class="page-wrapper">
+    <section class="hero-wrap style1">
+        <div class="row" style="padding-right: 100px;" class="style1 bg-primary">
+            <h2 class="text-light" style="font-family:Times New Roman" , Times, serif">إضافة موظف</h2>
+            <hr />
+    <div class="col-lg-6 col-md-4" >       
+            <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <input asp-for="Employee.Name" class="form-control" placeholder="الإسـم ثلاثى " />
+                <span asp-validation-for="Employee.Name" class="text-danger"></span>
+            </div>
+            <br/>
+            <div class="form-group">
+                <input asp-for="Employee.Age" class="form-control" placeholder="العمـر"/>
+                <span asp-validation-for="Employee.Age" class="text-danger"></span>
+            </div>
+                    <br />
+            <div class="form-group">
+                <input asp-for="Employee.Address" class="form-control" placeholder="العنـوان"/>
+                <span asp-validation-for="Employee.Address" class="text-danger"></span>
+            </div>
+                    <br />
+            <div class="form-group">
+                <input asp-for="Employee.Role" class="form-control" placeholder="الوظيفـة"/>
+                <span asp-validation-for="Employee.Role" class="text-danger"></span>
+            </div>
+                    <br />
+            <div class="form-group">
+                <input asp-for="Employee.Salary" class="form-control" placeholder="الراتـب"/>
+                <span asp-validation-for="Employee.Salary" class="text-danger"></span>
+            </div>
+            <br/>
+            <div class="form-group">
+                        <input type="submit" value="اضـافة " class="btn style2" />
+            </div>
+        </form>
+    </div>
+    <br/>
+    <div class="col-lg-6 col-md-4 d-flex justify-content-center">
+         <img src="assets/img/employee.png" width="500px" />
+    </div>
+</div>
+</section>
+</div>
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

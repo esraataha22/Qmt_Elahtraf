@@ -1,0 +1,81 @@
+﻿@page
+@model Qimt2.Pages.DeleteReportModel
+
+@{
+    ViewData["Title"] = "DeleteReport";
+}
+
+<style>
+  th{
+      font-size:16px;
+      color:white;
+  }
+</style>
+
+<div class="page-wrapper">
+    <div style="padding: 110px 0 100px; padding-top:170px;" class="style1 bg-primary">
+        <div class="container">
+            <h2 style="color:white; font-family:Times New Roman", Times, serif;">هل تريد بالتأكيد حذف التقرير ؟</h2>
+            <hr style="border: 1px solid black" />
+            <br />
+            <div>
+                <table class="table table-striped" style="box-shadow:10px 10px 15px white">
+                <thead>
+                    <tr>
+                        <th scope="col">
+                            العنوان باللغة العربية
+                        </th>
+                        <th scope="col">
+                            العنوان باللغة الإنجليزية
+                        </th>
+                        <th scope="col">
+                            النقاط باللغة العربية
+                        </th>
+                        <th scope="col">
+                            النقاط باللغة الإنجليزية
+                        </th>
+                        <th scope="col">
+                            الفقرات باللغة العربية
+                        </th>
+                        <th scope="col">
+                            الفقرات باللغة الإنجليزية
+                        </th>
+                        <th scope="col">
+                            الصـور
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="color:white">
+                            @Html.DisplayFor(model => model.Report.title_Ar)
+                        </td>
+                            <td style="color:white">
+                            @Html.DisplayFor(model => model.Report.title_En)
+                        </td>
+                            <td style="color:white">
+                            @Html.DisplayFor(model => model.Report.point_Ar)
+                        </td>
+                            <td style="color:white">
+                            @Html.DisplayFor(model => model.Report.point_En)
+                        </td>
+                            <td style="color:white">
+                            @Html.DisplayFor(model => model.Report.paragraph_Ar)
+                        </td>
+                            <td style="color:white">
+                            @Html.DisplayFor(model => model.Report.paragraph_En)
+                        </td>
+                        <td>
+                            <img src="images/@Html.DisplayFor(model => model.Report.Photo)" width="80" />
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+    <form method="post" style="direction:ltr">
+        <input type="hidden" asp-for="Report.RepId" />
+        <input type="submit" value="حـذف" class="btn btn-danger" /> 
+    </form>
+</div>
+        </div>
+    </div>
+</div>

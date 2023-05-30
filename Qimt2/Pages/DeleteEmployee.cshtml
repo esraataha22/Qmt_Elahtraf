@@ -1,0 +1,70 @@
+﻿@page
+@model Qimt2.Pages.DeleteEmployeeModel
+
+@{
+    ViewData["Title"] = "DeleteEmployee";
+}
+
+
+<style>
+    th {
+        font-size: 16px;
+        color: white;
+    }
+</style>
+
+<div class="page-wrapper">
+    <div style="padding: 110px 0 100px; padding-top:170px;" class="style1 bg-primary">
+        <div class="container">
+            <h2 style="color:white; font-family:Times New Roman" , Times, serif;">هل تريد بالتأكيد حذف الموظـف ؟</h2>
+            <hr style="border: 1px solid black" />
+            <br />
+            <div>
+                <table class="table table-striped" style="box-shadow:10px 10px 15px white">
+                    <thead>
+                        <tr>
+                            <th scope="col">
+                                الإسـم
+                            </th>
+                            <th scope="col">
+                                العمـر
+                            </th>
+                            <th scope="col">
+                                العنـوان
+                            </th>
+                            <th scope="col">
+                                الوظيفـة
+                            </th>
+                            <th scope="col">
+                                الراتـب
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="color:white">
+                                @Html.DisplayFor(model => model.Employee.Name)
+                            </td>
+                            <td style="color:white">
+                                @Html.DisplayFor(model => model.Employee.Age)
+                            </td>
+                            <td style="color:white">
+                                @Html.DisplayFor(model => model.Employee.Address)
+                            </td>
+                            <td style="color:white">
+                                @Html.DisplayFor(model => model.Employee.Role)
+                            </td>
+                            <td style="color:white">
+                                @Html.DisplayFor(model => model.Employee.Salary)
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <form method="post" style="direction:ltr">
+                    <input type="hidden" asp-for="Employee.Id" />
+                    <input type="submit" value="حـذف" class="btn btn-danger" />
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
